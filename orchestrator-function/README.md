@@ -30,6 +30,14 @@ This folder contains the Python code for the **Orchestrator Function**. The Orch
      - **`ServiceBusConnection`**: The connection string for your Azure Service Bus namespace.
      - **`CosmosDBConnectionString`**: The connection string for your Azure Cosmos DB account.
 
+### Required Environment Variables
+
+Ensure the following environment variables are set in your Azure Function App configuration:
+
+- **`ServiceBusConnection`**: Connection string for the Azure Service Bus namespace.
+- **`CosmosDBConnectionString`**: Connection string for the Azure Cosmos DB account.
+- **`ActivityFunctionUrl`**: URL of the deployed Activity Function endpoint.
+
 2. **Run the GitHub Action**:
    - Push your changes to the `main` branch or manually trigger the **Deploy Orchestrator Function** workflow from the **Actions** tab.
 
