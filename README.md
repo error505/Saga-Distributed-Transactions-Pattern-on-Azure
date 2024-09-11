@@ -5,6 +5,8 @@ This repository provides an implementation of the **Saga Distributed Transaction
 ## 🏗️ Architectural Overview
 
 The **Saga Pattern** breaks a distributed transaction into a series of smaller transactions that are executed in a sequence. If any transaction fails, the Saga Pattern triggers compensating transactions to undo the changes made by previous steps, ensuring **eventual consistency** across the entire system.
+![image](https://github.com/user-attachments/assets/6616372a-9d6c-4ec3-8d51-fafdb6611488)
+
 
 ### Architecture Diagram
 
